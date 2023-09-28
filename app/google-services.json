@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474566123047",
+    "project_id": "eduapp-477d2",
+    "storage_bucket": "eduapp-477d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474566123047:android:3de218c025c6b25a64b802",
+        "android_client_info": {
+          "package_name": "com.vb.eduApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5rS1GDd9fhZyKtWsbs_rwekqAooQF20A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

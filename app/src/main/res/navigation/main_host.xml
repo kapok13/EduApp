@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_host"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.vb.eduApp.ui.menu.MenuFragment"
+        android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/lessonFragment"
+        android:name="com.vb.eduApp.ui.lesson.LessonFragment"
+        android:label="LessonFragment" />
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.vb.eduApp.ui.lesson.QuestionFragment"
+        android:label="QuestionFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.vb.eduApp.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.vb.eduApp.ui.lesson.LessonsFragment"
+        android:label="LessonsFragment" />
+    <fragment
+        android:id="@+id/lessonDetailFragment"
+        android:name="com.vb.eduApp.ui.lesson.LessonDetailFragment"
+        android:label="LessonDetailFragment" />
+    <fragment
+        android:id="@+id/questionTestFragment"
+        android:name="com.vb.eduApp.ui.lesson.QuestionTestFragment"
+        android:label="QuestionTestFragment" />
+    <fragment
+        android:id="@+id/userLessonsFragment"
+        android:name="com.vb.eduApp.ui.lesson.UserLessonsFragment"
+        android:label="UserLessonsFragment" />
+    <fragment
+        android:id="@+id/lessonEditAnswersFragment"
+        android:name="com.vb.eduApp.ui.lesson.LessonEditAnswersFragment"
+        android:label="LessonEditAnswersFragment" />
+    <fragment
+        android:id="@+id/lessonEditFragment"
+        android:name="com.vb.eduApp.ui.lesson.LessonEditFragment"
+        android:label="LessonEditFragment" />
+</navigation>
